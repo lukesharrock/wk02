@@ -1,0 +1,224 @@
+/*
+Project Name: Relaxr
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-size: 18px;
+     line-height: 1.2;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;   /*why this here???*/
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center bottom rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
+}
+
+main {
+  background: #fff;
+  margin: 0px auto 50px auto;
+  height: 340px;
+  padding: 50px;
+}
+
+.testimonial {
+  width: 100%;
+  margin: auto;
+  /*height: 340px;*/
+  padding: 50px 0;
+  background: url(../images/testimonial_bg.jpg) no-repeat center bottom rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
+}
+
+.cta {
+  background: #f9e42e;
+  text-align: center;
+  height: 150px;
+  margin: auto;
+}
+
+
+footer {
+  background: black;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+  padding: 50px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+footer img {
+  padding: 14px 8px;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 45px;
+  padding: 50px 50px 50px 50px;
+  color: #fff;
+}
+
+h2 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 50px 50px 20px 50px;
+  color: #033048;
+}
+
+.logo {
+  color: #fff;
+  padding: 50px 50px 50px 50px;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: left;  /*doesn't seem ideal to do it this way?*/
+}
+
+.footerlogo {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: center;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+footer p {
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  padding: 10px 30px;
+  width: 200px;
+  margin: 50px auto;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background: #033048;
+  color: white;
+}
+
+button:hover {
+  background-color: #1f6184;
+  }
+
+blockquote
+  {
+    color: white;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.4;
+    margin: 0px auto;
+    width: 40%;
+    text-align: center;
+  }
+
+
+.attribution {
+  font-style: normal;
+  font-weight: 300;
+}
+
+.attribution b {
+  font-weight: 600;
+}
+
+
+.yellowbutton {
+  background-color: #f9e42e;
+  color: black;
+  }
+
+.yellowbutton:hover {
+  background-color: #ffca0a;
+  }
+
+
+p {
+  color: #495b5f;
+  padding: 10px 10px 10px 50px;
+  font-size: 18px;
+
+}
+
+ul {
+  color: #495b5f;
+  font-size: 18px;
+  list-style: disc;
+  padding: 10px 50px 50px 70px;
+}
+
+li {
+  padding: 5px 0 0 10px
+}
+
+code {
+  background: white;
+}
